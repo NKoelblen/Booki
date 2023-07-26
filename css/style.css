@@ -235,6 +235,9 @@ header {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .hebergements-cards {
@@ -247,7 +250,6 @@ header {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     width: 30%;
 }
 
@@ -275,6 +277,11 @@ header {
 
 .hebergements-cards .card-rating {
     margin: 4px 0 10px 0;
+}
+
+a.dynamic {
+    text-decoration: none;
+    color: black;
 }
 
 /****** Populaires ***********/
