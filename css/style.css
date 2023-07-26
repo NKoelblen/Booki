@@ -169,6 +169,56 @@ header {
     display: none;
 }
 
+/****** Filter-bar *******/
+.filter-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter {
+    height: 40px;
+    border: solid 2px var(--main-bg-color);
+    border-radius: 25px;
+    padding: 0 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.filter span {
+    color: black;
+}
+
+.filter:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/******* Info-bar ******/
+.info-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: solid 1px var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-info {
+    font-size: 10px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
