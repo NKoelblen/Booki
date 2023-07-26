@@ -245,6 +245,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 30px;
 }
 
 .hebergements-cards .card {
@@ -255,7 +256,7 @@ header {
 
 .hebergements-cards img {
     width: 100%;
-    height: 136px;
+    height: 114px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -362,6 +363,34 @@ a.dynamic {
 
 .activites-cards .card-title {
     padding: 20px 19px;
+}
+
+/***** Footer ******/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+}
+
+.footer-section {
+    width: 33.33%;
+    padding: 20px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-top: 15px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
