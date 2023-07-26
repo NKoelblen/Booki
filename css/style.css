@@ -157,11 +157,11 @@ header {
 
 .search-button {
     box-sizing: content-box;
-    height: 19px;
+    height: 49px;
     background-color: var(--main-color);
     border: none;
     border-radius: 0 15px 15px 0;
-    padding: 15px 16px;
+    padding: 0 16px;
 }
 
 .search-button.mobile {
