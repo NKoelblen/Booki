@@ -49,6 +49,7 @@ main {
 .dynamic {
     font-size: 18px;
     font-weight: 700;
+    margin: 0;
 }
 
 .card {
@@ -164,8 +165,7 @@ header {
     padding: 0 16px;
 }
 
-.search-button.mobile {
-    border-radius: 15px;
+.mobile {
     display: none;
 }
 
@@ -240,6 +240,18 @@ header {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .search-button {
+        border-radius: 15px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
