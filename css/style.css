@@ -22,8 +22,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 50px;
     box-sizing: border-box;
 }
 
@@ -63,13 +62,13 @@ header {
 
 .logo {
     height: 1.1875em;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 50px;
 }
 
 .menu {
     display: flex;
     gap: 68px;
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
 }
 
 .menu-item {
@@ -129,7 +128,7 @@ header {
 
 .search-field {
     border: none;
-    padding: 0 24px 0 24px;
+    padding: 0 24px;
     min-width: 0;
 }
 
@@ -210,6 +209,15 @@ header {
     font-size: 16px;
 }
 
+.card a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content:'';
+}
+
 .euro {
     font-weight: 700;
 }
@@ -277,15 +285,6 @@ header {
     margin: 4px 0 10px 0;
 }
 
-.hebergements-cards .card a::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content:'';
-}
-
 /* Populaires */
 .populaires {
     width: 32%;
@@ -329,15 +328,6 @@ header {
     margin-bottom: 5px;
 }
 
-.populaires-cards .card a::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content:'';
-}
-
 /* Activites */
 .activites {
     padding: 30px;
@@ -373,15 +363,6 @@ header {
 
 .activites-cards .card-title {
     padding: 20px 19px;
-}
-
-.activites-cards .card a::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content:'';
 }
 
 /***** Footer ******/
