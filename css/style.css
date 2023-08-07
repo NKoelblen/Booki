@@ -111,7 +111,6 @@ header {
 .search-label {
     width: 50px;
     height: 47px;
-    box-sizing: border-box;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -356,13 +355,10 @@ header {
 }
 
 .activites-cards .card-content {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box;
-}
-
-.activites-cards .card-title {
     padding: 20px 19px;
 }
 
